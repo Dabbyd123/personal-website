@@ -1,0 +1,173 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    background:
+        url(images/wood-1759566_960_720.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+.dark-gradient {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blink {
+    animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        text-shadow: 0 0 5px #fff,
+            0 0 5px #fff,
+            0 0 15px #c5cae9,
+            0 0 25px #7986cb,
+            0 0 30px #3f51b5,
+            0 0 30px #3949ab,
+            0 0 35px #3949ab;
+    }
+
+    70% {
+        text-shadow: 0 0 5px #fff,
+            0 0 5px #fff,
+            0 0 5px #c5cae9,
+            0 0 10px #7986cb,
+            0 0 15px #3f51b5,
+            0 0 20px #3949ab,
+            0 0 25px #3949ab;
+    }
+
+    100% {
+        text-shadow: 0 0 5px #fff,
+            0 0 5px #fff,
+            0 0 15px #c5cae9,
+            0 0 25px #7986cb,
+            0 0 30px #3f51b5,
+            0 0 30px #3949ab,
+            0 0 35px #3949ab
+    }
+}
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.container_carousel {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: 300px;
+    perspective: 1000px;
+    position: relative;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+
+.item {
+    height: 250px;
+    width: 300px;
+    font-size: 2em;
+    opacity: .98;
+    position: absolute;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.cell_1 {
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.cell_2 {
+    transform: rotateY(60deg) translateZ(300px);
+}
+
+.cell_3 {
+    transform: rotateY(120deg) translateZ(300px);
+}
+
+.cell_4 {
+    transform: rotateY(180deg) translateZ(300px);
+}
+
+.cell_5 {
+    transform: rotateY(240deg) translateZ(300px);
+}
+
+.cell_6 {
+    transform: rotateY(300deg) translateZ(300px);
+}
+
+.neon-body {
+    text-shadow: 0 0 5px #fff,
+        0 0 5px #fff,
+        0 0 10px #c5cae9,
+        0 0 15px #7986cb,
+        0 0 20px #3f51b5,
+        0 0 25px #3949ab,
+        0 0 30px #3949ab;
+    font-family: 'Roboto'
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.underline {
+    text-decoration: underline #ff5722;
+}
+
+.cyan-lighter-hover {
+    color: #00bcd4;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.cyan-lighter-hover:hover {
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #22e6ff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #00bcd4;
+    color: #fff
+}
+
+.indent {
+    text-indent: 5%;
+}
