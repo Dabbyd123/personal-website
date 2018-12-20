@@ -14,6 +14,10 @@ body {
     height: 100%;
 }
 
+@media (max-width: 575px) {
+    background: url(images/bridge-2618635_1920.jpg) no-repeat center center fixed;
+}
+
 .neon-body {
     text-shadow: 0 0 5px #fff,
         0 0 5px #fff,
