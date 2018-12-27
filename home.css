@@ -4,8 +4,10 @@ body {
         /* gradient overlay */
         linear-gradient(rgba(12.9, 12.9, 12.9, 0.85),
         rgba(12.9, 12.9, 12.9, 0.85)),
+        -webkit-linear-gradient(rgba(12.9, 12.9, 12.9, .85),
+        rgba(12.9, 12.9, 12.9, .85))
         /* bottom, image */
-        url(images/bridge-2618635_1920.png) no-repeat center center;
+        url(images/bridge-2618635_1920.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
