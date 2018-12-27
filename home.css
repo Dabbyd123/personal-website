@@ -1,7 +1,7 @@
 html,
 body {
     background:
-        /* top, transparent red, faked with gradient */
+        /* gradient overlay */
         linear-gradient(rgba(12.9, 12.9, 12.9, 0.85),
         rgba(12.9, 12.9, 12.9, 0.85)),
         /* bottom, image */
@@ -12,10 +12,6 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100vw;
-}
-
-@media (max-width: 575px) {
-    background: url(images/bridge-2618635_1920.jpg) no-repeat center center fixed;
 }
 
 .neon-body {
