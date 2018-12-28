@@ -7,7 +7,8 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    overflow-x: hidden;
+    width: 100%;
 }
 
 img {
@@ -83,7 +84,7 @@ img {
     display: block;
     margin: 0 auto;
     height: 250px;
-    width: 300px;
+    width: 275px;
     perspective: 1000px;
     position: relative;
 }
@@ -98,7 +99,7 @@ img {
 
 .item {
     height: 250px;
-    width: 300px;
+    width: 275px;
     font-size: 2em;
     opacity: .98;
     position: absolute;
@@ -107,27 +108,27 @@ img {
 }
 
 .cell_1 {
-    transform: rotateY(0deg) translateZ(300px);
+    transform: rotateY(0deg) translateZ(275px);
 }
 
 .cell_2 {
-    transform: rotateY(60deg) translateZ(300px);
+    transform: rotateY(60deg) translateZ(275px);
 }
 
 .cell_3 {
-    transform: rotateY(120deg) translateZ(300px);
+    transform: rotateY(120deg) translateZ(275px);
 }
 
 .cell_4 {
-    transform: rotateY(180deg) translateZ(300px);
+    transform: rotateY(180deg) translateZ(275px);
 }
 
 .cell_5 {
-    transform: rotateY(240deg) translateZ(300px);
+    transform: rotateY(240deg) translateZ(275px);
 }
 
 .cell_6 {
-    transform: rotateY(300deg) translateZ(300px);
+    transform: rotateY(300deg) translateZ(275px);
 }
 
 .neon-body {
