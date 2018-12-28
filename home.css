@@ -1,16 +1,15 @@
-html,
 body {
     background:
         /* gradient overlay */
-        linear-gradient(rgba(12.9, 12.9, 12.9, 0.85),
-        rgba(12.9, 12.9, 12.9, 0.85)),
+        linear-gradient(rgba(13, 13, 13, 0.7),
+        rgba(13, 13, 13, 0.7)),
         /* bottom, image */
         url(images/bridge-1081902_1920.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 100vh
 }
 
 .neon-body {
