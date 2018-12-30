@@ -2,13 +2,17 @@ body,
 html {
     font-family: 'Roboto', sans-serif;
     background:
+        /* Gradient Overlay */
+        linear-gradient(rgba(13, 13, 13, 0.5),
+        rgba(13, 13, 13, 0.5)),
+        /* Bottom Image */
         url(images/wood-1759566_960_720.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden;
-    width: 100%;
+    height: 100vh;
 }
 
 img {
@@ -33,31 +37,31 @@ img {
     0% {
         text-shadow: 0 0 5px #fff,
             0 0 5px #fff,
-            0 0 15px #c5cae9,
-            0 0 25px #7986cb,
-            0 0 30px #3f51b5,
-            0 0 30px #3949ab,
-            0 0 35px #3949ab;
+            0 0 15px #80d8ff,
+            0 0 25px #40c4ff,
+            0 0 30px #00b0ff,
+            0 0 30px #0091ea,
+            0 0 35px #0091ea;
     }
 
     70% {
         text-shadow: 0 0 5px #fff,
             0 0 5px #fff,
-            0 0 5px #c5cae9,
-            0 0 10px #7986cb,
-            0 0 15px #3f51b5,
-            0 0 20px #3949ab,
-            0 0 25px #3949ab;
+            0 0 5px #80d8ff,
+            0 0 10px #40c4ff,
+            0 0 15px #00b0ff,
+            0 0 20px #0091ea,
+            0 0 25px #0091ea;
     }
 
     100% {
         text-shadow: 0 0 5px #fff,
             0 0 5px #fff,
-            0 0 15px #c5cae9,
-            0 0 25px #7986cb,
-            0 0 30px #3f51b5,
-            0 0 30px #3949ab,
-            0 0 35px #3949ab
+            0 0 15px #80d8ff,
+            0 0 25px #40c4ff,
+            0 0 30px #00b0ff,
+            0 0 30px #0091ea,
+            0 0 35px #0091ea
     }
 }
 
@@ -134,11 +138,11 @@ img {
 .neon-body {
     text-shadow: 0 0 5px #fff,
         0 0 5px #fff,
-        0 0 10px #c5cae9,
-        0 0 15px #7986cb,
-        0 0 20px #3f51b5,
-        0 0 25px #3949ab,
-        0 0 30px #3949ab;
+        0 0 10px #80d8ff,
+        0 0 15px #40c4ff,
+        0 0 20px #00b0ff,
+        0 0 25px #0091ea,
+        0 0 30px #0091ea;
     font-family: 'Roboto'
 }
 
@@ -148,27 +152,25 @@ img {
 }
 
 .underline {
-    text-decoration: underline #ff5722;
+    border-bottom: 3px solid #ff7043;
+    padding-bottom: 2px;
+    border-radius: 5px
 }
 
-.cyan-lighter-hover {
-    color: #00bcd4;
+.blue-lighter-hover {
+    color: #1976D2;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
-.cyan-lighter-hover:hover {
+.blue-lighter-hover:hover {
     -webkit-transition: .4s;
     transition: .4s;
-    color: #22e6ff;
+    color: #4e9cea;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    background-color: #00bcd4;
+    background-color: #4e9cea;
     color: #fff
-}
-
-.indent {
-    text-indent: 5%;
 }

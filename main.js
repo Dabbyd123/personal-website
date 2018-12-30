@@ -28,12 +28,17 @@ function rotate(e) {
 $('#pills-about-tab').on('click', function () {
     const typed = new Typed('#typed', {
         strings: ["soccer enthusiast", "musician", "web ^1000 developer"],
-        backSpeed: 40,
-        typeSpeed: 80,
+        backSpeed: 60,
+        typeSpeed: 110,
         showCursor: false
     })
 })
 
+// Add neon body class to Projects Header after animation ends
+$('#projectsHeader').one('animationend webkitAnimationEnd mozAnimationEnd', function () {
+    $('#projectsHeader').addClass('neon-body');
+    $('#projectsHeader').removeClass('animated')
+})
 
 
 
