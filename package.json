@@ -4,7 +4,8 @@
   "description": "portfolio website",
   "main": "main.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "build": "run build/"
   },
   "author": "david brocker",
   "license": "ISC",
