@@ -1,0 +1,11 @@
+{
+  "name": "dabbyd",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "david brocker",
+  "license": "ISC"
+}
