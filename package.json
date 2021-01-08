@@ -5,8 +5,11 @@
   "main": "main.js",
   "scripts": {
     "test": "npm test",
-    "build": "npm run build"
+    "build": "npm build"
   },
   "author": "david brocker",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "netlify-cli": "^2.71.0"
+  }
 }
