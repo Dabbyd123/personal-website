@@ -4,7 +4,7 @@ html {
     background:
         /* Gradient Overlay */
         linear-gradient(rgba(13, 13, 13, 0.5),
-        rgba(13, 13, 13, 0.5)),
+            rgba(13, 13, 13, 0.5)),
         /* Bottom Image */
         url(images/wood-1759566_960_720.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -116,33 +116,48 @@ img {
 }
 
 .cell_2 {
-    transform: rotateY(60deg) translateZ(275px);
+    transform: rotateY(-120deg) translateZ(275px);
 }
 
 .cell_3 {
     transform: rotateY(120deg) translateZ(275px);
 }
 
-.cell_4 {
-    transform: rotateY(180deg) translateZ(275px);
+.covid-img {
+    background-image: url("./images/CovidTracker.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 120px;
+    width: 275px
 }
 
-.cell_5 {
-    transform: rotateY(240deg) translateZ(275px);
+.mars-img {
+    background-image: url("./images/mars-rovers.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 120px;
+    width: 275px
 }
 
-.cell_6 {
-    transform: rotateY(300deg) translateZ(275px);
+.dashboard-img {
+    background-image: url("./images/dashboard-thumbnail.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 120px;
+    width: 275px
 }
 
 .neon-body {
-    text-shadow: 0 0 5px #fff,
-        0 0 5px #fff,
-        0 0 10px #80d8ff,
-        0 0 15px #40c4ff,
-        0 0 20px #00b0ff,
-        0 0 25px #0091ea,
-        0 0 30px #0091ea;
+    text-shadow: 0 0 2px #fff,
+        0 0 2px #fff,
+        0 0 4px #80d8ff,
+        0 0 6px #40c4ff,
+        0 0 8px #00b0ff,
+        0 0 10px #0091ea,
+        0 0 12px #0091ea;
     font-family: 'Roboto'
 }
 
@@ -173,4 +188,9 @@ img {
 .nav-pills .show>.nav-link {
     background-color: #4e9cea;
     color: #fff
+}
+
+#iframe {
+    background-color: #fff;
+    display: none
 }

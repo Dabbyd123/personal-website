@@ -20,7 +20,8 @@
 
     <!-- Logo nav -->
     <nav class="navbar mb-0 shadow-none navbar-dark dark-gradient">
-        <a class="navbar-brand neon-body blink ml-2" href="index.html"><i class="fa fa-cubes" aria-hidden="true"></i>DB</a>
+        <a class="navbar-brand neon-body blink ml-2" href="index.html"><i class="fa fa-cubes"
+                aria-hidden="true"></i>DB</a>
     </nav>
 
     <!-- Navbar -->
@@ -28,15 +29,18 @@
         <ul class="nav nav-pills mb-3 nav-justified elegant-color" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link font-weight-bold text-uppercase active blue-lighter-hover" id="pills-projects-tab"
-                    data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-home" aria-selected="false">Projects</a>
+                    data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-home"
+                    aria-selected="false">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link font-weight-bold text-uppercase blue-lighter-hover" id="pills-about-tab" data-toggle="pill"
-                    href="#pills-about" role="tab" aria-controls="pills-profile" aria-selected="false">About</a>
+                <a class="nav-link font-weight-bold text-uppercase blue-lighter-hover" id="pills-about-tab"
+                    data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link neon font-weight-bold text-uppercase blue-lighter-hover" id="pills-contact-tab"
-                    data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                <a class="nav-link font-weight-bold text-uppercase blue-lighter-hover" id="pills-contact-tab"
+                    data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">Contact</a>
             </li>
         </ul>
     </nav>
@@ -46,11 +50,11 @@
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
             <div class="container mt-5 pb-3">
-                <h1 class="display-5 text-light mb-4"><span class="underline">Projects</span></h1>
+                <h1 id="projectsHeader" class="text-light text-center mb-5 animated flash delay-2s faster"><span
+                        class="underline">Projects</span></h1>
                 <p class="lead text-monospace text-light">These are some projects I have done since I
                     began
-                    coding a
-                    year and half
+                    coding about three years
                     ago. The languages I used for each project are listed
                     on the respective cards. You can view the project by clicking "view site" and you can view
                     the github repository for that project by clicking "view github".</p>
@@ -60,83 +64,60 @@
             <div class="container pb-5 mt-2">
                 <div class="container_carousel pt-5 mb-3">
                     <div class="carousel">
+
+                        <!-- Card 1 -->
                         <div class="item cell_1 blue-gradient text-black-50">
-                            <h2 class="pt-2 z-depth-2 pb-2 rounded font-weight-bold">Purrrfect Match</h2>
-                            <div class="container lead text-center">
-                                HTML
-                                <br>
-                                CSS (Bootstrap)
-                            </div>
-                            <a href="https://dabbyd123.github.io/puuurfectMatch/" role="button" class="mt-4 btn btn-sm btn-rounded">View
+                            <h1 class="pt-2 z-depth-2 pb-2 rounded font-weight-bold">Mars Rovers</h1>
+                            <div class="mars-img"></div>
+                            <a type="button" role="button" id="iButton" class="btn btn-sm white-text">View
                                 Site</a>
-                            <a href="https://github.com/Dabbyd123/puuurfectMatch" role="button" class="mt-4 btn btn-sm btn-rounded">View
+                            <a href="https://github.com/Dabbyd123/puuurfectMatch" role="button"
+                                class=" btn btn-sm white-text">View
                                 Github</a>
                         </div>
-                        <div class="item cell_2 blue-gradient text-black-50">
-                            <h1 class="display-6 pt-2 z-depth-2 pb-2 rounded font-weight-bold">RoboFriends</h1>
-                            <div class="container text-center lead">
-                                React
-                                <br>
-                                CSS (Tacheyons)
+
+                        <!-- Card 2 -->
+                        <div class="item cell_2 blue-gradient text-black-50 pb-5">
+                            <h1 class="pt-2 z-depth-2 pb-2 rounded font-weight-bold">Covid Tracker</h1>
+                            <div class="covid-img pb-0 mb-0"></div>
+                            <div class="align-content-end">
+                                <a href="https://covid19statsusa.com" role="button" class="btn btn-sm white-text">View
+                                    Site</a>
+                                <a href="https://github.com/Dabbyd123/Robofriends" role="button"
+                                    class="btn btn-sm white-text">View
+                                    Github</a>
                             </div>
-                            <a href="http://dabbyd123.github.io/Robofriends" role="button" class="btn btn-rounded btn-sm mt-4">View
-                                Site</a>
-                            <a href="https://github.com/Dabbyd123/Robofriends" role="button" class="btn btn-rounded btn-sm mt-4">View
-                                Github</a>
                         </div>
+
+                        <!-- Card 3 -->
                         <div class="item cell_3 blue-gradient text-black-50">
-                            <h1 class="display-6 pt-2 z-depth-2 pb-2 rounded font-weight-bold">Starwars</h1>
-                            <div class="container text-center lead">
-                                React
-                                <br>
-                                CSS (Bootstrap)
-                            </div>
-                            <a href="http://dabbyd123.github.io/starwars" role="button" class="btn btn-rounded btn-sm mt-4">View
+                            <h1 class="pt-2 z-depth-2 pb-2 rounded font-weight-bold">Dashboard</h1>
+                            <div class="dashboard-img pb-0 mb-0"></div>
+                            <a class="btn btn-sm white-text">View
                                 Site</a>
-                            <a href="https://github.com/Dabbyd123/starwars" role="button" class="btn btn-rounded btn-sm mt-4">View
+                            <a class="btn btn-sm white-text">View
                                 Github</a>
                         </div>
-                        <div class="item cell_4 blue-gradient text-black-50">
-                            <h1 class="display-6 pt-2 z-depth-2 pb-2 rounded font-weight-bold">ToDo List</h1>
-                            <div class="container lead text-center">
-                                HTML<br>
-                                CSS<br>
-                                JQuery
-                            </div>
-                            <a href="http://dabbyd123.github.io/todoList" role="button" class="btn btn-rounded btn-sm mt-3">View
-                                Site</a>
-                            <a href="https://github.com/Dabbyd123/todoList" role="button" class="btn btn-rounded btn-sm mt-3">View
-                                Github</a>
-                        </div>
-                        <div class="item cell_5 blue-gradient text-black-50">
-                            <h1 class="display-6 pt-2 z-depth-2 pb-2 rounded font-weight-bold">BG-Gradient</h1>
-                            <div class="container lead text-center">
-                                HTML<br>
-                                CSS<br>
-                                Javascript
-                            </div>
-                            <a href="http://dabbyd123.github.io/background-generator" class="btn btn-rounded btn-sm mt-2">View
-                                Site</a>
-                            <a href="https://github.com/Dabbyd123/background-generator" class="btn btn-rounded btn-sm mt-2">View
-                                Github</a>
-                        </div>
-                        <div class="item cell_6 blue-gradient text-black-50">
-                            TBD
-                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="container d-flex mt-5 pt-5 mb-5 justify-content-around">
                 <button class="btn btn-deep-orange btn-lg rounded prev">Prev</button>
-                <button class="btn btn-deep-orange btn-lg rounded next ">Next</button>
+                <button class="btn btn-deep-orange btn-lg rounded next">Next</button>
             </div>
         </div>
+
+
+        <iframe src="https://confident-goldwasser-56f9df.netlify.com/" id="iframe" width="100%" height="100vh"
+            style="display: hidden"></iframe>
 
 
         <!-- About Tab -->
         <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
             <div class="container mt-5">
-                <h1 class="display-5 text-light mb-5 animated"><span class="underline">About Me</span></h1>
+                <h1 id="aboutHeader" class="text-light text-center mb-5 animated flash delay-2s faster"><span
+                        class="underline">About Me</span></h1>
                 <img src="images/me-and-winnie.JPG" class="float-left rounded mr-3" alt="">
                 <p class="text-light text-monospace text-left">
                     Hi, my name is David Brocker and I am a
@@ -182,14 +163,15 @@
         <!--Contact Tab -->
         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <div class="container mt-5">
-                <h1 class="display-5 text-light mb-5 animated "><span class="underline">Contact</span></h1>
+                <h1 id="contactHeader" class="text-light text-center mb-5 animated flash delay-2s faster"><span
+                        class="underline">Contact</span></h1>
                 <div class="container text-center">
 
                     <h3 class="h3-responsive text-light text-monospace mb-5">If you have any comments, questions,
                         concerns, etc. please feel free to contact me.</h3>
                     <div class="d-flex col justify-content-around">
-                        <a href="mailto:dbrocker89@gmail.com" class="display-1" role="button"><i class="fa fa-envelope-square"
-                                aria-hidden="true"></i>
+                        <a href="mailto:dbrocker89@gmail.com" class="display-1" role="button"><i
+                                class="fa fa-envelope-square" aria-hidden="true"></i>
                         </a>
                         <a href="https://github.com/Dabbyd123" class="display-1"><i class="fa fa-github-square"
                                 aria-hidden="true"></i></a>
@@ -211,11 +193,14 @@
     <!-- My Script -->
     <script src="main.js"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.13/js/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.13/js/mdb.min.js">
+    </script>
     <!-- Typed.js JQuery Plugin -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 </body>
