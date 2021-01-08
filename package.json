@@ -4,8 +4,7 @@
   "description": "portfolio website",
   "main": "main.js",
   "scripts": {
-    "test": "npm test",
-    "build": "netlify build/"
+    "test": "npm test"
   },
   "author": "david brocker",
   "license": "ISC",
