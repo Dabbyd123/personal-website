@@ -9,8 +9,5 @@
     "start": "npm start"
   },
   "author": "david brocker",
-  "license": "ISC",
-  "dependencies": {
-    "netlify-cli": "^2.71.0"
-  }
+  "license": "ISC"
 }
