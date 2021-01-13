@@ -1,4 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-http://vigorous-nobel-d57ebd.netlify.com/* https://www.davidbrocker.com/:splat 301!
-
-
